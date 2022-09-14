@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { HttpService } from '@nestjs/axios';
 import { PinoLogger } from "nestjs-pino";
+import { Config } from "./config";
 
 @Injectable()
 export class AppService {
@@ -11,7 +12,7 @@ export class AppService {
     this.logger.info({msg: "Hello method", data: { message: greeting }})
 
     const { data } = await this.httpService
-      .get('http://localhost:4000/world')
+      .get("/world", { baseURL: Config.second_service_api_url})
       .toPromise();
     return `${greeting} ${data}`;
   }

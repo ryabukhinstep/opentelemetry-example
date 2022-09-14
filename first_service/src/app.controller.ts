@@ -1,6 +1,6 @@
 import { Body, Controller, Get, Param, Post } from '@nestjs/common';
 import { AppService } from './app.service';
-import { OtelCounter, OtelMethodCounter } from 'nestjs-otel';
+import { OtelMethodCounter } from 'nestjs-otel';
 
 class BodyDto {
   value: string

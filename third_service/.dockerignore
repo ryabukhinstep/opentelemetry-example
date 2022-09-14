@@ -1,0 +1,8 @@
+.git
+.env
+# Dependency directories
+node_modules
+# Coverage
+coverage
+.scannerwork
+src/generated
