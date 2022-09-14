@@ -1,0 +1,1 @@
+export const kafkaClientToken = "kafka client"
