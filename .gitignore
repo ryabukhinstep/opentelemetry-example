@@ -397,4 +397,3 @@ Temporary Items
 .env
 dist
 ./**/dist/
-./**/.env
