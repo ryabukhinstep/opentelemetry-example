@@ -3,7 +3,7 @@
   - `docker compose up`
 -  use .env file for configuring environment. See the example in 'environments' folder
 - execute commands from first_service, second_service and third_service directories for start apps
-  - `npm ci`
+  - `npm install`
   - `npm run start:dev`
 
 **Test**
@@ -12,4 +12,6 @@
 - For check tracing go to jaeger `http://localhost:16686`
 - For check metrics go to prometheus `http://localhost:9090`
 
+
+![Expected result](img.png)
 
