@@ -1,5 +1,5 @@
 **Running:**
-- build instrument. Kafka, jaeger and etc. See docker-compose file
+- build tools. Kafka, jaeger and etc. See docker-compose file
   - `docker compose up`
 -  use .env file for configuring environment. See the example in 'environments' folder
 - execute commands from first_service, second_service and third_service directories for start apps
